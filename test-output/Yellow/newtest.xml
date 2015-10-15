@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Tripti" name="test.NewTest" tests="2" failures="1" timestamp="14 Oct 2015 11:05:53 GMT" time="0.021" errors="0">
+  <testcase name="f" time="0.004" classname="test.NewTest"/>
+  <testcase name="s" time="0.001" classname="test.NewTest">
+    <failure type="java.lang.AssertionError" message="6 is greater expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: 6 is greater expected:<true> but was:<false>
+	at test.NewTest.s(NewTest.java:22)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

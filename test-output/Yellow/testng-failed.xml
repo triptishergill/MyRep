@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yellow]">
+  <test name="newtest(failed)" preserve-order="false">
+    <classes>
+      <class name="test.New1">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class>
+      <class name="test.NewTest">
+        <methods>
+          <include name="s"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
